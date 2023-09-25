@@ -1,0 +1,16 @@
+{
+  "name": "release-numbers-from-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsumi Takahashi",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.5.0",
+    "dotenv": "^16.3.1",
+    "twilio": "^4.14.0"
+  }
+}

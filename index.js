@@ -76,14 +76,6 @@ function readCSVFile(filePath, callback) {
       if (count === 0) {
         log(`not found: ${e164PhoneNumber}`, 'red');
       }
-      // if (pn.length > 0) {
-      //   if (DELETE) {
-      //     await client.incomingPhoneNumbers(e164PhoneNumber).remove();
-      //     log(`delete: ${e164PhoneNumber}`, 'yellow');
-      //   }
-      // } else {
-      //   log(`not found: ${e164PhoneNumber}`, 'red');
-      // }
     } catch (error) {
       log(`${error}`, 'red')
       // 処理は継続させる
